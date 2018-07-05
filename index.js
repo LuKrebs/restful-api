@@ -25,6 +25,6 @@ const server = http.createServer((req, res) => {
 
 const PORT = 5000;
 
-server.listen(PORT, (req, res) => {
+server.listen(PORT, () => {
   console.log(`We are live on ${PORT}`);
 });
